@@ -1,11 +1,11 @@
-About r-badger
-==============
+About r-badger-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-badger-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/GuangchuangYu/badger
 
 Package license: Artistic-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-badger-feedstock/blob/main/LICENSE.txt)
 
 Summary: Query information and generate badge for using in README and GitHub Pages.
 
