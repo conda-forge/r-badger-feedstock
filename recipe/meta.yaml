@@ -1,4 +1,4 @@
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/badger_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/badger/badger_{{ version }}.tar.gz
-  sha256: 8ac7d8654dcf4dc72dd53bdd58354946cb830dc2f513d679f78c91bd4a36fd48
+  sha256: 6c26018c1576a9e7c536b07a600f7623059d219213564c561de6096a3deb81b4
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
