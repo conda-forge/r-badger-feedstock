@@ -1,6 +1,5 @@
 {% set version = "0.2.4" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-badger
@@ -13,8 +12,7 @@ source:
   sha256: 6c26018c1576a9e7c536b07a600f7623059d219213564c561de6096a3deb81b4
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
